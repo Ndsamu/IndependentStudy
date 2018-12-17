@@ -63,12 +63,6 @@ for ($i = 0; $i < pow(2,$exp); $i++) {
 }
 
 
-/*
-for ($i = 0; $i < 5; $i++) {
-	echo $keywords . "<br>";
-}
-*/
-
 // We put login boxes for the case if search_id is newposts, egosearch or unreadposts
 // because a guest should be able to log in even if guests search is not permitted
 
