@@ -1,0 +1,8 @@
+msgid "From"
+msgstr "Von"
+
+msgid "Send"
+msgstr "Senden"
+
+msgid "Add ping"
+msgstr "Ping hinzufügen"

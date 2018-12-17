@@ -1,0 +1,11 @@
+msgid "Additionnal style directives"
+msgstr "Instrucciones CSS adicionales"
+
+msgid "reactions"
+msgstr "reacciones"
+
+msgid "Add ping"
+msgstr "Agregar un retroenlace"
+
+msgid "From"
+msgstr "Del"

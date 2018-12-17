@@ -1,0 +1,122 @@
+table {
+	.maximal {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 1px;
+	}
+	.maximal,
+	&.maximal {
+		width: 100%;
+	}
+	.minimal {
+		width: 1px;
+	}
+	.nowrap {
+		white-space: nowrap;
+		vertical-align: top;
+	}
+	.count {
+		text-align: right;
+		padding-right: 1.5em;
+	}
+}
+
+th.first input {
+	padding-right: 34px;
+}
+
+th,
+tr.line {
+	img {
+		vertical-align: middle;
+		&.expand {
+			margin-right: 6px;
+			margin-bottom: -2px;
+		}
+	}
+}
+
+tr.line {
+	p {
+		margin: 0;
+	}
+	input,
+	select {
+		vertical-align: middle;
+		box-shadow: none;
+	}
+	select {
+		width: 6em;
+	}
+	input[type=text] {
+//		background: $line-input-background;
+	}
+	&:hover {
+		background: $line-background-over;
+	}
+	&:focus-within {
+    background-color: $line-focus-background;
+	}
+}
+
+td.status {
+	vertical-align: middle;
+	a {
+		border: none;
+	}
+}
+
+.noborder td,
+td.noborder,
+.noborder th,
+th.noborder {
+	border-width: 0 0 1px 0;
+  border-color: $cell-noborder-color;
+	line-height: 2em;
+	padding-bottom: 0;
+}
+
+.noborder p {
+	margin-bottom: 0;
+}
+
+table.posts-list {
+	min-width: 50%;
+}
+
+table.settings,
+table.prefs {
+	margin-bottom: 3em;
+	th:first-child {
+		width: 20%;
+	}
+	th + th {
+		width: 30%;
+		+ th {
+			width: 10%;
+		}
+	}
+	th:last-child {
+		width: 40%;
+	}
+}
+
+
+/* js */
+
+td.expand {
+	padding: 1em;
+	td {
+		border-bottom: none;
+	}
+}
+
+.handle {
+	padding: 0;
+}
+
+.handler {
+	cursor: move;
+	background: transparent url(drag.png) no-repeat 0 50%;
+	padding-left: 15px;
+}
